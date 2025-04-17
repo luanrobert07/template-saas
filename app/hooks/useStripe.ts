@@ -12,7 +12,9 @@ export function useStripe(){
     loadStripeAsync()
   }, [])
 
-  async function createPaymentStripeCheckout(chekoutData:any){
+  async function createPaymentStripeCheckout(chekoutData:
+    {testeId: string,}
+  ){
     if (!stripe) {
       throw new Error("Stripe not loaded yet")
     }
