@@ -4,8 +4,14 @@ import { Button } from "@/app/components/ui/button";
 import { auth } from "@/app/lib/auth";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge, Bell, Home, LightbulbIcon, MessageSquare, Settings, UserCircle, Users } from "lucide-react";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { redirect } from "next/navigation";
+
+export const metadata: Metadata = {
+  title: "Dashboard",
+  description: "Dashboard",
+}
 
 const mockConnections = [
   {

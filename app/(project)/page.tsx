@@ -1,6 +1,45 @@
 import Link from "next/link"
 import { ArrowRight, Sparkles, Zap, Users, LightbulbIcon, Star } from "lucide-react"
 import { Button } from "@/app/components/ui/button"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Solution Match - Conectando Desafios e Soluções Inovadoras",
+  description: "Descubra como a Solution Match conecta desafios a soluções poderosas, transformando ideias em realidade. Junte-se a uma comunidade de especialistas e solucionadores para criar impacto real.",
+  keywords: [
+    "conexão de ideias",
+    "soluções inovadoras",
+    "plataforma de colaboração",
+    "transformação de desafios",
+    "comunidade de especialistas",
+    "match de soluções",
+    "crescimento colaborativo",
+    "empreendedorismo",
+    "tecnologia e inovação",
+  ],
+  openGraph: {
+    title: "Solution Match - Conectando Desafios e Soluções Inovadoras",
+    description: "Transforme desafios em conquistas com a Solution Match. Conecte-se com especialistas e soluções que fazem a diferença.",
+    url: "https://solutionmatch.com",
+    siteName: "Solution Match",
+    images: [
+      {
+        url: "https://solutionmatch.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Solution Match - Conectando Desafios e Soluções",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Solution Match - Conectando Desafios e Soluções Inovadoras",
+    description: "Junte-se à Solution Match e transforme desafios em conquistas com soluções inovadoras.",
+    images: ["https://solutionmatch.com/og-image.jpg"],
+  },
+}
+
 
 export default function LandingPage() {
   return (

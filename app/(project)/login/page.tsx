@@ -1,6 +1,12 @@
 import { handleAuth } from "@/app/actions/handle-auth"
 import { auth } from "@/app/lib/auth";
+import type { Metadata } from "next";
 import { redirect } from "next/navigation";
+
+export const metadata: Metadata = {
+  title: "Login",
+  description: "Login",
+}
 
 export default async function Login() {
 
