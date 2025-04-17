@@ -8,7 +8,7 @@ export async function handleAuth() {
   if (session) {
     // Se houver sessão, redirecionar para a página de login
     return await signOut({
-      redirectTo: "/login",
+      redirectTo: "/",
     })
   }
 
