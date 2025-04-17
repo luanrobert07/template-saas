@@ -3,7 +3,7 @@ import { ArrowRight, Sparkles, Zap, Users, LightbulbIcon, Star } from "lucide-re
 import { Button } from "@/app/components/ui/button"
 import type { Metadata } from "next"
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: "Solution Match - Conectando Desafios e Soluções Inovadoras",
   description: "Descubra como a Solution Match conecta desafios a soluções poderosas, transformando ideias em realidade. Junte-se a uma comunidade de especialistas e solucionadores para criar impacto real.",
   keywords: [

@@ -3,7 +3,7 @@ import { auth } from "@/app/lib/auth";
 import type { Metadata } from "next";
 import { redirect } from "next/navigation";
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: "Login",
   description: "Login",
 }

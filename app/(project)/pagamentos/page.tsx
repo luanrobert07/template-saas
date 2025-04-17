@@ -4,7 +4,7 @@ import useMercadoPago from "@/app/hooks/useMercadoPago";
 import { useStripe } from "@/app/hooks/useStripe";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: "Pagamentos",
   description: "Pagamentos",
 }
