@@ -14,6 +14,7 @@ export async function POST(request: Request) {
         external_reference: testeId,
         metadata: {
           testeId, // Essa variável é convertida para snack_case
+          userEmail, // Essa variável é convertida para snack_case
         },
         ...(userEmail && { payer: ({ email: userEmail } )}), // Adiciona o payer apenas se useEmail for verdadeiro
         items: [
